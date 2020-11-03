@@ -114,11 +114,44 @@ body{
     line-height: 30px;
 }
 .d1right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     width:90px;
+}
+.d1image{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.d1image > img{
+    width: 100%;
+}
+.d1image.small{
+  width: 80%; 
+  font-size: 12px; 
 }
 div.div2{
     height: 50px;
     font-size: 14px;
     border-top: 2px solid black;
     padding-left: 10px;
+}
+
+/* Voto NULO */
+.big-warn{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.big-warn2{
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

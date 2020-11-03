@@ -4,19 +4,19 @@ let = candidate = [
         numeros: 5,
         candidatos:[
             {
-                numero: 38111,
+                numero: '38111',
                 nome: 'Zé da venda',
-                partido: LDR,
+                partido: 'LDR',
                 fotos:[
                     {url: 'v1.jpeg', legenda: 'Vereador', small: false}
                 ]
             },
             {
-                numero: 77666,
+                numero: '77666',
                 nome: 'Capitão Nascimento',
                 partido: 'MLCI',
                 fotos:[
-                    {url:nascimento.jpeg, legenda: 'Vereador', small: false}
+                    {url:'nascimento.jpeg', legenda: 'Vereador', small: false}
                 ]
             },
         ]
@@ -26,7 +26,7 @@ let = candidate = [
         numeros: 2,
         candidatos: [
             {
-                numero: 99,
+                numero: '99',
                 nome: 'Ferrando SP',
                 partido: 'BST',
                 vice: 'Ngm',
@@ -36,7 +36,7 @@ let = candidate = [
                 ]
             },
             {
-                numero: 84,
+                numero: '84',
                 nome: 'Super Xandão',
                 partido: 'BIRRL',
                 vice: 'Stronda',

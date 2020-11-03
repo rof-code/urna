@@ -29,7 +29,14 @@
                     </div>
                 </div>
                 <div class="d1right">
-                    ...
+                    <div class="d1image">
+                        <img src="./images/xandao.jpeg" alt="">
+                        Prefeito
+                    </div>
+                    <div class="d1image small">
+                        <img src="./images/stronda.png" alt="">
+                        Vice-Prefeito
+                    </div>
                 </div>
             </div>
             <div class="div2">
@@ -40,33 +47,37 @@
         </div><!--tela-->
         <div class="teclado">
             <div class="keyboard-line">
-                <div class="button-keyboard">1</div>
-                <div class="button-keyboard">2</div>
-                <div class="button-keyboard">3</div>
+                <div class="button-keyboard" onclick="clickou('1')">1</div>
+                <div class="button-keyboard" onclick="clickou('2')">2</div>
+                <div class="button-keyboard" onclick="clickou('3')">3</div>
             </div><!--Keyboard-line-->
 
             <div class="keyboard-line">
-                <div class="button-keyboard">4</div>
-                <div class="button-keyboard">5</div>
-                <div class="button-keyboard">6</div>
+                <div class="button-keyboard" onclick="clickou('4')">4</div>
+                <div class="button-keyboard" onclick="clickou('5')">5</div>
+                <div class="button-keyboard" onclick="clickou('6')">6</div>
             </div><!--Keyboard-line-->
 
             <div class="keyboard-line">
-                <div class="button-keyboard">7</div>
-                <div class="button-keyboard">8</div>
-                <div class="button-keyboard">9</div>
+                <div class="button-keyboard" onclick="clickou('7')">7</div>
+                <div class="button-keyboard" onclick="clickou('8')">8</div>
+                <div class="button-keyboard" onclick="clickou('9')">9</div>
             </div><!--Keyboard-line-->
 
             <div class="keyboard-line">
-                <div class="button-keyboard">0</div>
+                <div class="button-keyboard" onclick="clickou('0')">0</div>
             </div><!--Keyboard-line-->
 
             <div class="keyboard-line">
-                <div class="button-keyboard btn-white">BRANCO</div>
-                <div class="button-keyboard btn-yellow">CORRIGE</div>
-                <div class="button-keyboard btn-green">CONFIRMA</div>
+                <div class="button-keyboard btn-white" onclick="white()">BRANCO</div>
+                <div class="button-keyboard btn-yellow" onclick="yellow()">CORRIGE</div>
+                <div class="button-keyboard btn-green" onclick="green()">CONFIRMA</div>
             </div><!--Keyboard-line-->
         </div><!--Teclado-->
     </div>
+
+    <!--JAVASCRIPT-->
+    <script src="./candidate.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
